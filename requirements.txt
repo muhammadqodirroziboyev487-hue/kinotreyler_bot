@@ -1,0 +1,4 @@
+pyTelegramBotAPI==4.23.0
+Flask==3.0.3
+APScheduler==3.11.1
+matplotlib==3.8.0
