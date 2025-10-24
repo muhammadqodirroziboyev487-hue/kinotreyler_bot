@@ -20,8 +20,8 @@ import matplotlib.pyplot as plt
 # ---------------- CONFIG (tuzatish mumkin) ----------------
 TOKEN = "8285142272:AAE1uUBowGTUoJYMDvZaqzjRweyWAlRQVLQ"   # Siz bergan token
 MAIN_ADMIN_ID = 912998145                                 # Siz bergan admin id
-WEBHOOK_URL = "https://kinotreyleruz-bot-pq4y.onrender.com"  # Siz bergan Render URL (no slash)
-DB_FILE = "kinotreyleruz.db"
+WEBHOOK_URL = "https://kinotreyler-bot.onrender.com"  # Siz bergan Render URL (no slash)
+DB_FILE = "kinotreyler.db"
 BACKUP_DIR = "backups"
 # ---------------------------------------------------------
 
@@ -483,3 +483,4 @@ if __name__ == "__main__":
     set_webhook()
     port = int(os.environ.get("PORT", 10000))
     app.run(host="0.0.0.0", port=port)
+
